@@ -13,7 +13,7 @@ public class CalculatorServiceImpl implements CalculatorService {
     }
 
     @Override
-    public String multipy(int num1, int num2) {
+    public String multiply(int num1, int num2) {
         return stringResult(num1, num2, String.valueOf(num1 * num2), "*");
     }
 
