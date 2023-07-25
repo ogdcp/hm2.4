@@ -29,7 +29,7 @@ public class CalculatorController {
 
     @GetMapping("/multiply")
     public String multiply(@RequestParam int num1, @RequestParam int num2) {
-        return calculatorService.multipy(num1, num2);
+        return calculatorService.multiply(num1, num2);
     }
 
     @GetMapping("/divide")
